@@ -11,17 +11,9 @@ First, install submodules:
     $ git submodule init
     $ git submodule update
 
-Next, install dependencies. If you use `conda`, the following will create an environment called `cif`:
+Next, install dependencies. Run the code
 
-    conda env create -f environment.yml
-
-Activate this with
-
-    conda activate cif
-
-before running any code or tests.
-
-If you don't use `conda`, then please see `environment.yml` for a list of required packages, which will need to be installed manually e.g. via `pip`.
+    pip install -r requirements.txt
 
 ### Obtaining datasets
 
