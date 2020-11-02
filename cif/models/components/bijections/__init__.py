@@ -61,3 +61,5 @@ from .planar import (
 from .resflow import ResidualFlowBijection
 
 from .actnorm import ActNormBijection
+
+from .disshamil import DissipativeHamiltonian
